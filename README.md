@@ -1,29 +1,10 @@
 # season-ecomerce-server-express
 move thinkJS to expressJS 
 
-<!-- ### 海风小店，开源商城（服务端）
-
-+ 基于开源项目NideShop重建，精简了一些功能的同时完善了一些功能，并重新设计了UI
-+ 测试数据来自上述开源项目
-+ 服务端api基于Ｎode.js+ThinkJS+MySQL -->
-
-<!-- ### 目前基于海风小店已经上线的几款微信小程序商城
-<img width="1400" src="http://git.hiolabs.com/miniapp.jpg"/> -->
-
-<!-- ### 视频教程
-https://www.bilibili.com/video/av89567916 -->
-<!-- 
-### 本项目需要配合  
-微信小程序项目：GitHub: https://github.com/iamdarcy/hioshop-miniprogram  
-管理后台项目：GitHub: https://github.com/iamdarcy/hioshop-admin
-
-<a target="_blank" href="https://www.aliyun.com/minisite/goods?userCode=zm04niet"><img width="1400" src="http://git.hiolabs.com/aliyun.jpg"/></a>
-阿里云主机优惠季<a target="_blank" href="https://www.aliyun.com/minisite/goods?userCode=zm04niet">立即去看看</a> -->
-
 ### 本地开发环境配置
 + 克隆项目到本地
 ```
-git clone https://github.com/happy-hackers/season-ecommerce-server-express.git
+git clone https://github.com/sshaunn/season-ecommerce-server-express.git
 ```
 + 创建数据库seasonDevDB并导入项目根目录下的seasonDevDB.sql  
 推荐使用软件Navicat创建和管理数据库，也可以用以下命令创建：

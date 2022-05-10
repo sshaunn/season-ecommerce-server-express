@@ -1,0 +1,18 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "sp100809",
+    "database": "seasonDevDB",
+    "synchronize": false,
+    "logging": ["query", "error", "info"],
+    "entities": ["src/api/model/entity/**/*.entity.{ts,js}"],
+    "migrations": ["src/api/model/migration/**/*.ts"],
+    "subscribers": ["src/api/model/subscriber/**/*.ts"],
+    "cli": {
+      "entitiesDir": "src/api/model/entity",
+      "migrationsDir": "src/api/model/migration",
+      "subscribersDir": "src/api/model/subscriber"
+    }
+  }
